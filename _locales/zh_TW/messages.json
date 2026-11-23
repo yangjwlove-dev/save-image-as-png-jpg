@@ -1,0 +1,10 @@
+{
+  "extName": { "message": "圖片另存為 PNG / JPG（WebP 轉換 + AI 高清放大）" },
+  "extDescription": { "message": "右鍵網頁任意 WebP/AVIF 圖片，100% 本機秒轉儲存為 PNG/JPG，支援低清圖片一鍵 4K AI 無損放大。" },
+  "actionTitle": { "message": "圖片另存為 PNG/JPG 設定" },
+  "menuRoot": { "message": "另存為 PNG / JPG / 高清" },
+  "menuPng": { "message": "另存為 PNG（無損）" },
+  "menuJpg": { "message": "另存為 JPG" },
+  "menuWebp": { "message": "另存為 WebP" },
+  "menuUpscale": { "message": "AI 無損放大至 4K (EnhancePhoto)" }
+}
