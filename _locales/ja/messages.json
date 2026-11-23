@@ -1,0 +1,10 @@
+{
+  "extName": { "message": "画像を PNG / JPG として保存（WebP変換・4K拡大）" },
+  "extDescription": { "message": "WebPやAVIF画像を右クリックからローカルで即PNG/JPG保存。低解像度画像はEnhancePhoto AIで4K高画質化。" },
+  "actionTitle": { "message": "画像を PNG / JPG として保存" },
+  "menuRoot": { "message": "PNG / JPG / 4K で保存" },
+  "menuPng": { "message": "PNG として保存（無劣化）" },
+  "menuJpg": { "message": "JPG として保存" },
+  "menuWebp": { "message": "WebP として保存" },
+  "menuUpscale": { "message": "AI で 4K 高画質化 (EnhancePhoto)" }
+}
