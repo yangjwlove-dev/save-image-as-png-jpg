@@ -1,0 +1,26 @@
+{
+  "extName": {
+    "message": "Guardar Imagen como PNG / JPG + 4K IA"
+  },
+  "extDescription": {
+    "message": "Convierte y guarda localmente WebP o AVIF como PNG o JPG con clic derecho, con opción de escalado IA a 4K."
+  },
+  "actionTitle": {
+    "message": "Configuración de Guardar Imagen"
+  },
+  "menuRoot": {
+    "message": "Guardar imagen como (PNG / JPG / 4K)"
+  },
+  "menuPng": {
+    "message": "Guardar como PNG (Sin pérdida)"
+  },
+  "menuJpg": {
+    "message": "Guardar como JPG"
+  },
+  "menuWebp": {
+    "message": "Guardar como WebP"
+  },
+  "menuUpscale": {
+    "message": "Escalar a 4K con IA (EnhancePhoto)"
+  }
+}
