@@ -1,0 +1,10 @@
+{
+  "extName": { "message": "图片另存为 PNG / JPG（WebP 转换 + AI 高清放大）" },
+  "extDescription": { "message": "右键网页任意 WebP/AVIF 图片，100% 本地秒转保存为 PNG/JPG，支持低清图片一键 4K AI 无损放大。" },
+  "actionTitle": { "message": "图片另存为 PNG/JPG 设置" },
+  "menuRoot": { "message": "另存为 PNG / JPG / 高清" },
+  "menuPng": { "message": "另存为 PNG（无损）" },
+  "menuJpg": { "message": "另存为 JPG" },
+  "menuWebp": { "message": "另存为 WebP" },
+  "menuUpscale": { "message": "AI 无损放大至 4K (EnhancePhoto)" }
+}
