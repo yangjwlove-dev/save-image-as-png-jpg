@@ -1,0 +1,26 @@
+{
+  "extName": {
+    "message": "Save Image as PNG / JPG + HD Upscaler"
+  },
+  "extDescription": {
+    "message": "Right-click WebP, AVIF, or web photos to save locally as PNG, JPG, or WebP, plus 1-click 4K AI upscaling."
+  },
+  "actionTitle": {
+    "message": "Save Image as PNG / JPG Settings"
+  },
+  "menuRoot": {
+    "message": "Save Image As (PNG / JPG / HD)"
+  },
+  "menuPng": {
+    "message": "Save as PNG (Lossless)"
+  },
+  "menuJpg": {
+    "message": "Save as JPG"
+  },
+  "menuWebp": {
+    "message": "Save as WebP"
+  },
+  "menuUpscale": {
+    "message": "AI Upscale to 4K (EnhancePhoto)"
+  }
+}
