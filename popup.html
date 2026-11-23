@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save Image as PNG / JPG + HD</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="brand">
+        <img src="icons/icon48.png" alt="Icon" />
+        <div>
+          <h1>Save Image as PNG / JPG</h1>
+          <p>100% local WebP/AVIF converter · Zero tracking</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="body">
+      <section class="card">
+        <div class="row">
+          <label for="qualityRange">JPG Quality</label>
+          <span id="qualityLabel">92%</span>
+        </div>
+        <input id="qualityRange" type="range" min="70" max="100" value="92" />
+        <label class="toggle">
+          <input id="saveAsCheck" type="checkbox" />
+          <span>Always ask where to save each file</span>
+        </label>
+      </section>
+
+      <section class="card drop" id="dropBox">
+        <input id="localFile" type="file" accept="image/*" hidden />
+        <p class="drop-main">Drop WebP / AVIF / PNG here to convert locally</p>
+        <div class="btn-row">
+          <button type="button" id="pickPng" class="btn">Convert → PNG</button>
+          <button type="button" id="pickJpg" class="btn">Convert → JPG</button>
+        </div>
+      </section>
+
+      <section class="card upsell" id="lastCard">
+        <div class="upsell-head">
+          <strong id="lastTitle">Blurry or small web image?</strong>
+          <span class="tag" id="lowResTag">AI 4K</span>
+        </div>
+        <p class="upsell-desc" id="lastDesc">Right-click any image → “AI Upscale to 4K” to rebuild crisp 2K/4K details with EnhancePhoto.</p>
+        <a class="cta" href="https://enhancephoto.org/image-upscaler?utm_source=save_png_ext&utm_medium=popup_cta" target="_blank" rel="noopener">Open 4K AI Image Upscaler ↗</a>
+      </section>
+
+      <p class="status" id="status"></p>
+    </main>
+
+    <footer class="foot">
+      <span id="countText">0 images converted locally</span>
+      <a href="https://enhancephoto.org/privacy-policy" target="_blank" rel="noopener">Privacy</a>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
